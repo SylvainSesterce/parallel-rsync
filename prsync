@@ -3,7 +3,7 @@ set -e
 # Inspired by https://gist.github.com/akorn/644855ddaa8065f564be
 
 # Usage:
-#   rsync_parallel.sh [--parallel=N] [rsync args...]
+#   prsync [--parallel=N] [rsync args...]
 #
 # Options:
 #   --parallel=N    Use N parallel processes for transfer. Default is to use all available processors (`nproc`) or fail back to 10.
