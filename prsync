@@ -29,7 +29,7 @@ then
   exit
 fi
 
-if ! awk -v parallel &> /dev/null
+if ! command -v awk &> /dev/null
 then
   echo -e "${RED}awk could not be found${NC}"
   exit
